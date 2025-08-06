@@ -1,0 +1,23 @@
+{
+  "visualization": {
+    "id": "logo_bar_chart",
+    "name": "Logo Bar Chart",
+    "description": "Bar chart with club logos on bars",
+    "icon": "bar_chart",
+    "resource": {
+      "js": "chart.js"
+    }
+  },
+  "style": {},
+  "data": {
+    "dimensions": [
+      { "id": "Potentiel", "name": "Potentiel" },
+      { "id": "Catégorie", "name": "Catégorie" },
+      { "id": "Club", "name": "Club" },
+      { "id": "LogoURL", "name": "LogoURL" }
+    ],
+    "metrics": [
+      { "id": "Nombre de joueurs", "name": "Nombre de joueurs" }
+    ]
+  }
+}
